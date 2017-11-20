@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ui:composition xmlns:ui="http://java.sun.com/jsf/facelets" xmlns:af="http://xmlns.oracle.com/adf/faces/rich">
+    <!--oracle-jdev-comment:auto-binding-backing-bean-name:backing_FileUpload-->
+    <af:inputFile label="File Upload:" maximumFiles="1" value="#{backingBeanScope.backing_FileUpload.file}"  id="if1" binding="#{backingBeanScope.backing_FileUpload.if1}"/>
+    <af:button partialSubmit="true" text="Upload File" id="b1" binding="#{backingBeanScope.backing_FileUpload.b1}"
+               action="#{backingBeanScope.backing_FileUpload.processFileUpload}"/>
+</ui:composition>

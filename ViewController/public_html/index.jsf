@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE html>
+<f:view xmlns:f="http://java.sun.com/jsf/core" xmlns:af="http://xmlns.oracle.com/adf/faces/rich">
+    <af:document title="index.jsf" id="d1" binding="#{backingBeanScope.backing_index.d1}">
+        <af:form usesUpload="true" id="f1" binding="#{backingBeanScope.backing_index.f1}">
+            <af:region value="#{bindings.taskflowfileupload1.regionModel}" id="r1"
+                       binding="#{backingBeanScope.backing_index.r1}"/>
+        </af:form>
+    </af:document>
+    <!--oracle-jdev-comment:auto-binding-backing-bean-name:backing_index-->
+</f:view>
